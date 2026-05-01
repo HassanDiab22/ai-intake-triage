@@ -1,0 +1,89 @@
+[
+  {
+    "source": "Email",
+    "message": "Hi, I tried logging in this morning and keep getting a 403 error. My account is arcvault.io/user/jsmith. This started after your update last Tuesday.",
+    "category": "Bug Report",
+    "priority": "High",
+    "confidence": 0.9,
+    "coreIssue": "The user is experiencing a 403 error when trying to log in to their ArcVault account",
+    "identifiers": [
+      "arcvault.io/user/jsmith",
+      "403 error"
+    ],
+    "urgencySignal": "High",
+    "summary": "The user is unable to log in to their ArcVault account due to a 403 error, which started after the update last Tuesday. The issue is preventing them from accessing their account. The user has provided their account URL for reference.",
+    "route": "Engineering Queue",
+    "escalated": false,
+    "created_at": "2026-05-01T17:29:16.570425"
+  },
+  {
+    "source": "Email",
+    "message": "Hi, I tried logging in this morning and keep getting a 403 error. My account is arcvault.io/user/jsmith. This started after your update last Tuesday.",
+    "category": "Incident/Outage",
+    "priority": "High",
+    "confidence": 0.9,
+    "coreIssue": "The user is experiencing a 403 error when trying to log in to their ArcVault account",
+    "identifiers": [
+      "arcvault.io/user/jsmith",
+      "403 error"
+    ],
+    "urgencySignal": "High",
+    "summary": "The user is unable to log in to their ArcVault account due to a 403 error, which started after the update last Tuesday. The issue is preventing them from accessing their account. The user has provided their account URL for reference.",
+    "route": "Escalation Queue",
+    "escalated": true
+  },
+  {
+    "source": "Web Form",
+    "message": "We'd love to see a bulk export feature for our audit logs. We're a compliance-heavy organization and this would save us hours every month.",
+    "category": "Feature Request",
+    "priority": "Low",
+    "confidence": 0.9,
+    "coreIssue": "The customer is requesting a bulk export feature for audit logs to improve efficiency.",
+    "identifiers": [],
+    "urgencySignal": "Low",
+    "summary": "The customer is seeking a bulk export feature for audit logs to reduce manual effort and improve compliance. They currently spend hours each month on this task. The customer is looking for a more efficient solution to manage their audit logs.",
+    "route": "Product Queue",
+    "escalated": false
+  },
+  {
+    "source": "Support Portal",
+    "message": "Invoice #8821 shows a charge of $1240 but our contract rate is $980/month. Can someone look into this?",
+    "category": "Billing Issue",
+    "priority": "Medium",
+    "confidence": 0.9,
+    "coreIssue": "The customer's invoice shows a charge higher than their contract rate.",
+    "identifiers": [
+      "Invoice #8821"
+    ],
+    "urgencySignal": "Medium",
+    "summary": "The customer is disputing an invoice charge, claiming it exceeds their contract rate of $980/month. The invoice in question is #8821 with a charge of $1240. The customer is requesting an investigation into this discrepancy.",
+    "route": "Escalation Queue",
+    "escalated": true
+  },
+  {
+    "source": "Email",
+    "message": "I'm not sure if this is the right place to ask, but is there a way to set up SSO with Okta? We're evaluating switching our auth provider.",
+    "category": "Technical Question",
+    "priority": "Medium",
+    "confidence": 0.8,
+    "coreIssue": "The customer is inquiring about setting up SSO with Okta as they evaluate switching their auth provider.",
+    "identifiers": [],
+    "urgencySignal": "Medium",
+    "summary": "The customer is evaluating a switch in their auth provider and is asking about setting up SSO with Okta. They are seeking information on this integration. The customer's current auth setup is not specified.",
+    "route": "IT/Security Queue",
+    "escalated": false
+  },
+  {
+    "source": "Web Form",
+    "message": "Your dashboard stopped loading for us around 2pm. Checked our end, it's definitely on your side. Multiple users affected.",
+    "category": "Incident/Outage",
+    "priority": "High",
+    "confidence": 0.95,
+    "coreIssue": "The ArcVault dashboard stopped loading for multiple users",
+    "identifiers": [],
+    "urgencySignal": "High",
+    "summary": "The ArcVault dashboard stopped loading around 2pm, affecting multiple users, and the issue has been confirmed to be on ArcVault's side. The users have checked their end and confirmed the issue is not local. The dashboard outage is currently ongoing.",
+    "route": "Escalation Queue",
+    "escalated": true
+  }
+]
