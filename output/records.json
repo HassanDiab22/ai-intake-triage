@@ -4,33 +4,34 @@
     "message": "Hi, I tried logging in this morning and keep getting a 403 error. My account is arcvault.io/user/jsmith. This started after your update last Tuesday.",
     "category": "Bug Report",
     "priority": "High",
-    "confidence": 0.9,
+    "confidence": 0.95,
     "coreIssue": "The user is experiencing a 403 error when trying to log in to their ArcVault account",
     "identifiers": [
       "arcvault.io/user/jsmith",
       "403 error"
     ],
     "urgencySignal": "High",
-    "summary": "The user is unable to log in to their ArcVault account due to a 403 error, which started after the update last Tuesday. The issue is preventing them from accessing their account. The user has provided their account URL for reference.",
+    "summary": "The user is unable to log in to their ArcVault account due to a 403 error, which started after the update last Tuesday. The user's account is arcvault.io/user/jsmith. This issue is blocking their access to the platform.",
     "route": "Engineering Queue",
     "escalated": false,
-    "created_at": "2026-05-01T17:29:16.570425"
+    "created_at": "2026-05-04T20:56:47.957171"
   },
   {
     "source": "Email",
     "message": "Hi, I tried logging in this morning and keep getting a 403 error. My account is arcvault.io/user/jsmith. This started after your update last Tuesday.",
     "category": "Incident/Outage",
     "priority": "High",
-    "confidence": 0.9,
+    "confidence": 0.95,
     "coreIssue": "The user is experiencing a 403 error when trying to log in to their ArcVault account",
     "identifiers": [
       "arcvault.io/user/jsmith",
       "403 error"
     ],
     "urgencySignal": "High",
-    "summary": "The user is unable to log in to their ArcVault account due to a 403 error, which started after the update last Tuesday. The issue is preventing them from accessing their account. The user has provided their account URL for reference.",
+    "summary": "The user is unable to log in to their ArcVault account due to a 403 error, which started after the update last Tuesday. The user's account is arcvault.io/user/jsmith. This issue is blocking their access to the platform.",
     "route": "Escalation Queue",
-    "escalated": true
+    "escalated": true,
+    "created_at": "2026-05-04T21:11:55.735319"
   },
   {
     "source": "Web Form",
@@ -38,27 +39,29 @@
     "category": "Feature Request",
     "priority": "Low",
     "confidence": 0.9,
-    "coreIssue": "The customer is requesting a bulk export feature for audit logs to improve efficiency.",
+    "coreIssue": "The customer is requesting a bulk export feature for audit logs to improve compliance efficiency.",
     "identifiers": [],
     "urgencySignal": "Low",
-    "summary": "The customer is seeking a bulk export feature for audit logs to reduce manual effort and improve compliance. They currently spend hours each month on this task. The customer is looking for a more efficient solution to manage their audit logs.",
+    "summary": "The customer is seeking a bulk export feature for audit logs to reduce manual effort and improve compliance. They currently spend hours every month on this task. This is a feature request to improve their workflow efficiency.",
     "route": "Product Queue",
-    "escalated": false
+    "escalated": false,
+    "created_at": "2026-05-04T21:11:56.422576"
   },
   {
     "source": "Support Portal",
     "message": "Invoice #8821 shows a charge of $1240 but our contract rate is $980/month. Can someone look into this?",
     "category": "Billing Issue",
     "priority": "Medium",
-    "confidence": 0.9,
-    "coreIssue": "The customer's invoice shows a charge higher than their contract rate.",
+    "confidence": 0.95,
+    "coreIssue": "The customer is being charged a higher rate than their contract rate.",
     "identifiers": [
       "Invoice #8821"
     ],
     "urgencySignal": "Medium",
-    "summary": "The customer is disputing an invoice charge, claiming it exceeds their contract rate of $980/month. The invoice in question is #8821 with a charge of $1240. The customer is requesting an investigation into this discrepancy.",
+    "summary": "The customer is disputing a charge on their invoice, claiming it exceeds their contract rate of $980/month. The invoice in question is #8821 with a charge of $1240. The customer is requesting someone to look into this issue.",
     "route": "Escalation Queue",
-    "escalated": true
+    "escalated": true,
+    "created_at": "2026-05-04T21:11:56.927315"
   },
   {
     "source": "Email",
@@ -66,12 +69,13 @@
     "category": "Technical Question",
     "priority": "Medium",
     "confidence": 0.8,
-    "coreIssue": "The customer is inquiring about setting up SSO with Okta as they evaluate switching their auth provider.",
+    "coreIssue": "The customer is inquiring about setting up SSO with Okta as their auth provider.",
     "identifiers": [],
-    "urgencySignal": "Medium",
-    "summary": "The customer is evaluating a switch in their auth provider and is asking about setting up SSO with Okta. They are seeking information on this integration. The customer's current auth setup is not specified.",
+    "urgencySignal": "Low",
+    "summary": "The customer is evaluating switching their auth provider and wants to know if it's possible to set up SSO with Okta. They are seeking information on this integration. The customer is not reporting any current issues, but rather planning for a potential switch.",
     "route": "IT/Security Queue",
-    "escalated": false
+    "escalated": false,
+    "created_at": "2026-05-04T21:11:57.500643"
   },
   {
     "source": "Web Form",
@@ -82,8 +86,9 @@
     "coreIssue": "The ArcVault dashboard stopped loading for multiple users",
     "identifiers": [],
     "urgencySignal": "High",
-    "summary": "The ArcVault dashboard stopped loading around 2pm, affecting multiple users, and the issue has been confirmed to be on ArcVault's side. The users have checked their end and confirmed the issue is not local. The dashboard outage is currently ongoing.",
+    "summary": "The ArcVault dashboard stopped loading around 2pm for multiple users, and the issue has been confirmed to be on ArcVault's side. The users have already checked their end and confirmed the issue is not local. This is a high-priority incident requiring immediate attention.",
     "route": "Escalation Queue",
-    "escalated": true
+    "escalated": true,
+    "created_at": "2026-05-04T21:11:58.075271"
   }
 ]
