@@ -1,4 +1,3 @@
-# sample data to test the flow 
 SAMPLE_REQUESTS = [
     {
         "source": "Email",
