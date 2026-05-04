@@ -26,11 +26,10 @@ async def intake(payload: IntakeRequest):
     try:
         ai_result = await classify_message(payload.source, payload.message)
 
-        route, escalated = get_route(
-            ai_result["category"],
-            ai_result["confidence"],
-            payload.message,
+        route, escalated, reason = get_route(
+        ai_result["category"],ai_result["confidence"],payload.message
         )
+
 
         record = {
             "source": payload.source,
@@ -38,6 +37,7 @@ async def intake(payload: IntakeRequest):
             **ai_result,
             "route": route,
             "escalated": escalated,
+            "reason": reason,
             "created_at": datetime.now().isoformat(),
         }
 
@@ -58,7 +58,7 @@ async def process_samples():
     for req in SAMPLE_REQUESTS:
         ai_result = await classify_message(req["source"], req["message"])
 
-        route, escalated = get_route(
+        route, escalated, reason = get_route(
             ai_result["category"],
             ai_result["confidence"],
             req["message"]
@@ -69,7 +69,9 @@ async def process_samples():
             "message": req["message"],
             **ai_result,
             "route": route,
-            "escalated": escalated
+            "escalated": escalated,
+            "reason": reason,
+            "created_at": datetime.now().isoformat(),
         }
 
         save_record(record)
